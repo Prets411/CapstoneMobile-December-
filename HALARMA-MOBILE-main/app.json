@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "OretoAc",
+    "slug": "OretoAc",
+    "version": "1.0.0",
+    "scheme": "com.supabase",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "extra": {
+      "supabaseUrl": "https://qdhgaumghqfyibuykclo.supabase.co",
+      "supabaseAnonKey": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InFkaGdhdW1naHFmeWlidXlrY2xvIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MzA3ODYzNjksImV4cCI6MjA0NjM2MjM2OX0.CYE4ZGDIAdVHum4-TUh7viiUuYyKJIqi0mjJQSzF41U"
+    }
+  }
+}
